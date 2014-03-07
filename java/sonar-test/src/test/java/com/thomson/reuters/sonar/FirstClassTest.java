@@ -12,4 +12,11 @@ public class FirstClassTest {
         Assert.assertEquals("Hello World", ret);
     }
     
+    @Test
+    public void secondMethodTest(){
+    	FirstClass fc = new FirstClassImpl();
+    	String ret = fc.secondMethod();        
+    	Assert.assertEquals("Hello Universe", ret);
+    }
+    
 }
