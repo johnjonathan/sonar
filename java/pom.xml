@@ -5,13 +5,16 @@
 	<artifactId>sonar-test-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
+	<!--
 	<properties>
 		<sonar.core.codeCoveragePlugin>jacoco</sonar.core.codeCoveragePlugin>
 		<sonar.includedModules>sonar-test</sonar.includedModules>
 		<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
 		<jacoco.version>0.6.4.201312101107</jacoco.version>
 	</properties>
+	-->
 	<build>
+		<!--
 		<plugins>
 			<plugin>
 				<groupId>org.jacoco</groupId>
@@ -36,6 +39,7 @@
 				</executions>
 			</plugin>
 		</plugins>
+		-->
 	</build>
 	<dependencies>
 		<dependency>
